@@ -9,9 +9,9 @@ function Contact() {
 
   const sendMsg = () => {
     if (text.trim() !== "") {
-      const serviceID = "service_0wscqwz";
-      const templateID = "template_dkw4vhd";
-      const publicKey = "DbK5v9cllBoDFiuyY";
+      const serviceID = "Service";
+      const templateID = "Template";
+      const publicKey = "Public";
 
       const templateParams = {
         message: text,
